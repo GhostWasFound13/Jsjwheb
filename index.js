@@ -37,6 +37,7 @@ const client = new Discord.Client({
       status: "online"
     }
 });
+     
 //Define some Global Collections
 client.commands = new Discord.Collection();
 client.cooldowns = new Discord.Collection();
